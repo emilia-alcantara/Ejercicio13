@@ -35,7 +35,8 @@ fun mostrarResultado(numero: Double) : String {
     format.setMaximumFractionDigits(2)
     format.setCurrency(Currency.getInstance("EUR"))
     return format.format(numero)
-
 }
+
+
 
 
